@@ -1,0 +1,87 @@
+.main-nav{
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(198, 198, 198);
+
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.burger-icon{
+    height: 23px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.logo{
+    height: 23px;
+}
+/*================================================*/
+
+
+.nav-center{
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.nav-center input{
+    height: 40px;
+    width: 0;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 3px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.search-icon{
+    width: 60px;
+    height: 40px;
+    margin-left: -1px;
+    border: 1px solid rgb(199, 199, 199);
+    
+}
+.search-icon img{
+    width: 25px;
+    
+}
+.voice-icon{
+    width: 60px;
+    height: 40px;
+    border: none;
+}
+.voice-icon img{
+    width: 28px;
+}
+/*================================================*/
+
+
+.nav-right{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-right: 8px;
+}
+.upload-icon,
+.apps-icon,
+.notify-icon{
+    border: none;
+}
+.upload-icon img,
+.apps-icon img,
+.notify-icon img{
+    width: 30px;
+}
+
+.channel-pic img{
+    width: 35px;
+    border-radius: 50%;
+}
