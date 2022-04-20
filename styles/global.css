@@ -5,9 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    
-}
 button{
     cursor: pointer;
+}
+p{
+    font-family: Roboto, Arial;
+}
+body{
+    background-color: rgb(245, 244, 244);
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
