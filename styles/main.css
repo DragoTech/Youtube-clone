@@ -1,4 +1,14 @@
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+
+}
+
 .video-content {
+    display: flex;
+    flex-direction: column;
 }
 .video-thumbnail{
     position: relative;
@@ -19,7 +29,7 @@
 }
 .video-detail{
     display: flex;
-    padding-top: 5px;
+    padding-top: 13px;
 }
 .channel-pic {
     margin-right: 10px;
